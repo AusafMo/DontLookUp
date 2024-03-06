@@ -3,7 +3,7 @@
 ---
 
 #### What we want to do ?
-- We **dont** want to look up *How Quantum Computers work ?* while reading a Medium article on *How to Centre a Div*, a assured 30min side-quest rabbit hole.
+- We **dont** want to look up *How Quantum Computers work * while reading a Medium article on *How to Centre a Div*, a assured 30min side-quest rabbit hole.
 
 #### Basic Idea ?
 - A wikipedia style pop-up when hovered or on selecting a text.
