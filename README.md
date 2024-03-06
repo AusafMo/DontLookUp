@@ -6,7 +6,7 @@
 - We **dont** want to look up *How Quantum Computers work* (a good read im sure) while reading a Medium article on *How to Centre a Div*, a assured 30min side-quest rabbit hole.
 
 #### Basic Idea ?
-- A wikipedia style pop-up when hovered or on selecting a text.
+- A wikipedia style pop-up when hovered over or on selecting a text.
 - Answer returned based on RAG based look-ups or Finetuned LLMs.
 ![image](https://github.com/AusafMo/DontLookUp/assets/75237046/db58628c-1bf3-445c-b4b4-2e8973d6f121)
 
