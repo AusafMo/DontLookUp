@@ -1,5 +1,5 @@
-## DontLookUp
-#### Quick Looker 🔍, 🤖LLM based quick search extension, Open-Source Contributions encouraged 
+## DontLookUp ( Ideation Stage )
+#### Quick Looker 🔍, 🤖LLM based quick search extension, Open-Source Contributions encouraged
 ---
 
 #### What we want to do ?
