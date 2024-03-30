@@ -8,7 +8,7 @@
 #### Basic Idea ?
 - A wikipedia style pop-up when hovered over or on selecting a text on a webpage.
 - Data returned based on RAG based look-ups or Finetuned LLMs or both.
-![image](https://github.com/AusafMo/DontLookUp/assets/75237046/db58628c-1bf3-445c-b4b4-2e8973d6f121)
+![image](https://github.com/AusafMo/DontLookUp/assets/75237046/d6bb2c9b-df51-4016-a6ab-4f891e09ea8e)
 
 <hr/>
 
