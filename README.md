@@ -18,6 +18,7 @@ PS: Ended up calling Gemini Instead 😕
 
 ## TODO:
 
+- [ ] Hashing For Keys
 - [ ] Local LLaMa
 - [ ] Async Wrapper for Gemini
 - [ ] Actual Extension
