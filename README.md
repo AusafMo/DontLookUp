@@ -16,13 +16,16 @@
 - Oh we want to, just dont have that sweet creds and uncle sam wont help <br> 
 PS: Ended up calling Gemini Instead 😕
 
-## TODO:
-- [ ] Make it modular (Class Oriented, i hate OOPS tbh)
+## TODO
+Not in order:
+- [ ] Make it modular
+- [x] Hashing for Pass
 - [ ] Hashing For Keys
-- [ ] Local LLaMa
+- [x] <s>Local LLaMa (Too Compute Intensive)</s>
 - [ ] Async Wrapper for Gemini
 - [ ] Actual Extension
 - [ ] Delete Keys endpoint
+- [ ] Logout Endpoint
 
 
 **If you stumbled here by mistake, and if by sheer coincidence, you are intrigued, we encourage you to contribute, suggest or Advise, we need you 🥺**
