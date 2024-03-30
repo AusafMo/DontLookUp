@@ -17,7 +17,7 @@
 PS: Ended up calling Gemini Instead 😕
 
 ## TODO:
-
+- [ ] Make it modular (Class Oriented, i hate OOPS tbh)
 - [ ] Hashing For Keys
 - [ ] Local LLaMa
 - [ ] Async Wrapper for Gemini
