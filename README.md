@@ -22,7 +22,7 @@ PS: Ended up calling Gemini Instead 😕
 - [ ] Local LLaMa
 - [ ] Async Wrapper for Gemini
 - [ ] Actual Extension
-- [ ] Delete Keys
+- [ ] Delete Keys endpoint
 
 
 **If you stumbled here by mistake, and if by sheer coincidence, you are intrigued, we encourage you to contribute, suggest or Advise, we need you 🥺**
