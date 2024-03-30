@@ -13,6 +13,15 @@
 <hr/>
 
 #### Why dont we just call OpenAI ? 
-- Oh we want to, just dont have that sweet creds and uncle sam wont help 😕 
+- Oh we want to, just dont have that sweet creds and uncle sam wont help <br> 
+PS: Ended up calling Gemini Instead 😕
+
+## TODO:
+
+- [ ] Local LLaMa
+- [ ] Async Wrapper for Gemini
+- [ ] Actual Extension
+- [ ] Delete Keys
+
 
 **If you stumbled here by mistake, and if by sheer coincidence, you are intrigued, we encourage you to contribute, suggest or Advise, we need you 🥺**
