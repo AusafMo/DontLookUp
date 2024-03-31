@@ -6,8 +6,8 @@ from pymongo.server_api import ServerApi
 import asyncio
 import os
 from dotenv import load_dotenv
-import secrets
 load_dotenv()
+import secrets
 
 from pydantic import BaseModel
 from passlib.context import CryptContext
