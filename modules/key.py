@@ -1,7 +1,7 @@
 import secrets
 from pydantic import BaseModel
-from user import User
-from db import db
+from .user import User
+from .db import db
 
 def insert_dlu_key(current_user: User):
     try:

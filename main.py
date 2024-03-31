@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Depends, HTTPException, Security
 from fastapi.security import OAuth2PasswordBearer, APIKeyHeader
-from user import User, register, login
-from auth import get_current_user, checkDluKey
-from key import insert_dlu_key, get_dlu_keys, get_gem_keys, insert_gem_key
-from query import query
+from modules.user import User, register, login
+from modules.auth import get_current_user, checkDluKey
+from modules.key import insert_dlu_key, get_dlu_keys, get_gem_keys, insert_gem_key
+from modules.query import query
 
 app = FastAPI()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")

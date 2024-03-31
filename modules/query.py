@@ -1,11 +1,11 @@
 from fastapi import HTTPException, Depends, Security
 import google.generativeai as genai
 from pymongo.mongo_client import MongoClient
-from auth import checkDluKey, get_current_user
-from user import User
+from .auth import checkDluKey, get_current_user
+from .user import User
+from .db import db
 import os
 from pydantic import BaseModel
-from db import db
 
 def query(keyword:str =None, temperature: float = .5, dlu_key: str = Security(checkDluKey), current_user: User = Depends(get_current_user)):
     keyword = keyword.replace("%20", " ")

@@ -4,8 +4,8 @@ from passlib.context import CryptContext
 import datetime
 from datetime import timedelta
 import jwt
-from db import db
-from config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
+from .db import db
+from .config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 

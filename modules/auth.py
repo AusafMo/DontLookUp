@@ -3,8 +3,8 @@ from fastapi.security import OAuth2PasswordBearer, APIKeyHeader
 import jwt
 from pymongo.mongo_client import MongoClient
 import os
-from db import db
-from config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
+from .db import db
+from .config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
 
 def get_current_user(token: str = Security(OAuth2PasswordBearer(tokenUrl="login"))):
     credentials_exception = HTTPException(
