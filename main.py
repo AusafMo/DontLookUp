@@ -4,6 +4,7 @@ from modules.user import User, register, login
 from modules.auth import get_current_user, checkDluKey
 from modules.key import insert_dlu_key, get_dlu_keys, get_gem_keys, insert_gem_key
 from modules.query import query
+from modules.wiki import wikiSummary
 
 app = FastAPI()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
@@ -37,3 +38,7 @@ async def create_gem_key(dlu_key: str, new_key:str, current_user: User = Depends
 @app.get("/protected/{keyword}")
 async def search_query(keyword: str = None, temperature: float = .5, dlu_key: str = Depends(checkDluKey), current_user: User = Depends(get_current_user)):
     return query(keyword, temperature, dlu_key, current_user)
+
+@app.get("/wikipedia/{keyword}")
+async def search_wiki(keyword: str = None, dlu_key: str = Depends(checkDluKey)):
+    return wikiSummary(keyword)

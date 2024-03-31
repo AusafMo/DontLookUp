@@ -2,7 +2,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import os
 from dotenv import load_dotenv
-
+import requests
 load_dotenv()
 
 def initcon():
@@ -11,3 +11,7 @@ def initcon():
     db = client.get_database("dlu")
     return db
 db = initcon()
+
+def session():
+    s = requests.Session()
+    return s
