@@ -18,10 +18,11 @@ PS: Ended up calling Gemini Instead 😕
 
 ## TODO
 Not in order:
-- [ ] Make it modular
-- [x] Hashing for Pass
-- [ ] Hashing For Keys
+- [x] Make it modular (Almost)
 - [x] <s>Local LLaMa (Too Compute Intensive)</s>
+- [x] Hashing for Pass
+- [ ] Try [Gemma Open Models](https://ai.google.dev/gemma), [HF Gemma](https://huggingface.co/google/gemma-7b)
+- [ ] Hashing For Keys
 - [ ] Async Wrapper for Gemini
 - [ ] Actual Extension
 - [ ] Delete Keys endpoint
