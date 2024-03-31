@@ -1,4 +1,4 @@
-## DontLookUp ( Ideation Stage )
+## DontLookUp ( Partial Backend Implemented)
 #### Quick Looker 🔍, 🤖LLM based quick search extension, Open-Source Contributions encouraged
 ---
 
