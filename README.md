@@ -21,6 +21,7 @@ Not in order:
 - [x] Make it modular (Almost)
 - [x] <s>Local LLaMa (Too Compute Intensive)</s>
 - [x] Hashing for Pass
+- [x] WikiPedia Summary Endpoint
 - [ ] Try [Gemma Open Models](https://ai.google.dev/gemma), [HF Gemma](https://huggingface.co/google/gemma-7b)
 - [ ] Hashing For Keys
 - [ ] Async Wrapper for Gemini
