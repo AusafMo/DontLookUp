@@ -19,7 +19,8 @@ PS: Ended up calling Gemini Instead 😕
 ## TODO
 Not in order:
 - [x] Make it modular (Almost)
-- [x] <s>Local LLaMa (Too Compute Intensive)</s>
+- [x] Local LLaMa (Too Compute Intensive)
+- [ ] REMOVE JWT based Auth
 - [x] Hashing for Pass
 - [x] WikiPedia Summary Endpoint
 - [ ] Try [Gemma Open Models](https://ai.google.dev/gemma), [HF Gemma](https://huggingface.co/google/gemma-7b)
